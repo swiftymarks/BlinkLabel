@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BlinkLabel_Example' do
+  pod 'BlinkLabel', :path => '../'
+
+  target 'BlinkLabel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
